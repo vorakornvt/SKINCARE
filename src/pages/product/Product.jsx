@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import * as styles from "./Product.css";
 import productImg from "../../assets/images/birmingham-museums-trust-9dnNnTrHxmI-unsplash.jpg";
-import { Row, Col } from "react-bootstrap";
+import CartButton from "../../components/common/CartButton";
 import Btn from "../../components/common/Btn";
 
 function Product() {
@@ -16,6 +16,7 @@ function Product() {
             to additional content. This content is a little bit longer.
           </Card.Text>
           <Btn>CONTACT ARTIST</Btn>
+          <CartButton></CartButton>
         </Card.Body>
       </Card>
     </div>
