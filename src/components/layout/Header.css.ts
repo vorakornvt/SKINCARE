@@ -45,6 +45,7 @@ export const navLink = style({
   fontSize: vars.fontSizes["3x"],
   textTransform: "uppercase",
   transition: "0.2s ease-in",
+  fontFamily: vars.fonts.body,
 
   ":hover": {
     color: vars.colors.brand

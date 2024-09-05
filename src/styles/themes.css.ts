@@ -3,7 +3,7 @@ import twColors from 'tailwindcss/colors';
 
 export const root = createGlobalTheme(":root", {
   fonts: {
-    brand: "Montserrat, apple-system, sans-serif",
+    brand: "DM Serif Display, serif",
     body: "Open Sans, apple-system, sans-serif",
   },
   colors: {

@@ -9,8 +9,8 @@ const Header = () => {
       <Container>
         <Navbar.Brand className={styles.brandLink} as={Link} to="/">
           <div className={styles.logoTextBox}>
-            <span className={styles.brand}>Timbertop United</span>
-            <span className={styles.brandSub}>The Official Online Store</span>
+            <span className={styles.brand}>SKINCARE BRAND</span>
+            <span className={styles.brandSub}>For your skin and skin only</span>
           </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -19,7 +19,11 @@ const Header = () => {
           <Nav className="me-auto"></Nav>
           {/* AUTH NAVLINKS */}
           <Nav>
-            <Nav.Link className={styles.navLink} as={Link} to="/store/products">
+            <Nav.Link
+              className={styles.navLink}
+              as={Link}
+              to="/product/products"
+            >
               Products
             </Nav.Link>
             <Nav.Link className={styles.navLink} as={Link} to="/auth/login">

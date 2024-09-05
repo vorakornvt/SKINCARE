@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import Signup from "./pages/auth/Signup";
 import Login from "./pages/auth/Login";
 import Dashboard from "./pages/auth/Dashboard";
-
+import Product from "./pages/product/Product";
 import NotFound from "./pages/NotFound";
 
 // Import components
@@ -23,6 +23,9 @@ function App() {
         <Route path="/auth/signup" element={<Signup />} />
         <Route path="/auth/login" element={<Login />} />
         <Route path="/auth/dashboard" element={<Dashboard />} />
+
+        {/* PRODUCT PAGES */}
+        <Route path="/product/products" element={<Product />} />
 
         {/* ERROR PAGES */}
         <Route path="*" element={<NotFound />} />
