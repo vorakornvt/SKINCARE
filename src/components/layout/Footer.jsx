@@ -6,11 +6,7 @@ const Footer = () => {
     return new Date().getFullYear();
   };
 
-  return (
-    <div className={styles.footer}>
-      &copy; {getCurrentYear()} Timbertop United
-    </div>
-  )
-}
+  return <div className={styles.footer}>&copy; {getCurrentYear()} ARTIFY</div>;
+};
 
-export default Footer
+export default Footer;

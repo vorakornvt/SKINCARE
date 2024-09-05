@@ -1,5 +1,7 @@
 import * as styles from "./Header.css";
 
+import logoImg from "../../assets/images/Asset4.png";
+
 import { Link } from "react-router-dom";
 import { Container, Navbar, Nav } from "react-bootstrap";
 
@@ -8,10 +10,8 @@ const Header = () => {
     <Navbar className={styles.navbar} variant="light" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand className={styles.brandLink} as={Link} to="/">
-          <div className={styles.logoTextBox}>
-            <span className={styles.brand}>SKINCARE BRAND</span>
-            <span className={styles.brandSub}>For your skin and skin only</span>
-          </div>
+          <img className={styles.logo} src={logoImg} alt="ARTIFY LOGO" />
+          <div className={styles.logoTextBox}></div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

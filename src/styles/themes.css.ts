@@ -3,16 +3,15 @@ import twColors from 'tailwindcss/colors';
 
 export const root = createGlobalTheme(":root", {
   fonts: {
-    brand: "DM Serif Display, serif",
-    body: "Open Sans, apple-system, sans-serif",
+    brand: "Prata, serif",
+    body: "sans-serif",
   },
   colors: {
     // Semantic tokens
     primary: twColors.white,
     complementary: twColors.black,
-    brand: twColors.emerald[600],
-    brandLight: twColors.emerald[400],
-    brandDark: twColors.emerald[700],
+    brand: twColors.lime[500],
+   
 
     // Color tokens
     success: twColors.green[400],

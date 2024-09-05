@@ -10,16 +10,15 @@ export const navbar = style({
 })
 
 export const brandLink = style({
-  display: 'flex',
-  flexDirection: "row",
   gap: vars.space['2x'],
-  alignItems: "center",
+  alignItems: "center", 
   color: vars.colors.complementary,
   textTransform: "uppercase",
 })
 
 export const logo = style({
-  width: 60,
+  width: 120,
+  margin: '0 auto'
 })
 
 export const logoTextBox = style({
@@ -42,7 +41,7 @@ export const brandSub = style({
 
 export const navLink = style({
   color: vars.colors.complementary,
-  fontSize: vars.fontSizes["3x"],
+  fontSize: vars.fontSizes["2x"],
   textTransform: "uppercase",
   transition: "0.2s ease-in",
   fontFamily: vars.fonts.body,
